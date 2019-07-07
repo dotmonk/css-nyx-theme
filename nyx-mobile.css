@@ -1,0 +1,22 @@
+
+    button,
+    input[type='submit'],
+    input[type='button'],
+    a.nyx-button-standard, a.nyx-button-bright, a.nyx-button-success, a.nyx-button-error,
+    a.nyx-button-active-standard, a.nyx-button-active-bright, a.nyx-button-active-success, a.nyx-button-active-error,
+    a.nyx-button-disabled-standard, a.nyx-button-disabled-bright, a.nyx-button-disabled-success, a.nyx-button-disabled-error
+    {
+        display: block;
+        width: 100%;
+    }
+
+    input[type='text'], input[type='password'], input:not([type]) {
+        display: block;
+        width: 100%;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+    }
+

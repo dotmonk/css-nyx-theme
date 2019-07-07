@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nyx CSS Theme</title>
+    <link rel="stylesheet" type="text/css" href="nyx.min.css" />
+    <style>
+      .section {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <a style="float: right;" href="https://github.com/JustZisGuy/css-nyx-theme"
+      >On GitHub</a
+    >
+    <h2>Nyx CSS Theme</h2>
+
+    <div class="nyx-panel-standard">
+      This is a reference for how the Nyx theme looks and is intended to be
+      used. It's extremely basic and bare bones in this first version but may be
+      developed further if it becomes popular.
+    </div>
+    <h3>Contents</h3>
+    <div class="section">
+      <ul>
+        <li><a href="#automatic">Automatic Theming</a></li>
+        <ul>
+          <li><a href="#automatic_links">Links</a></li>
+          <li><a href="#automatic_headers">Headers</a></li>
+          <li>
+            <a href="#automatic_checkboxes_radiobuttons"
+              >Checkboxes and Radiobuttons</a
+            >
+          </li>
+          <li><a href="#automatic_hr">Horizontal Rule</a></li>
+          <li><a href="#automatic_buttons_inputs">Buttons &amp; Inputs</a></li>
+          <li><a href="#automatic_textarea">Textarea</a></li>
+        </ul>
+        <li><a href="#components">CSS Components</a></li>
+        <ul>
+          <li><a href="#components_buttons_normal">Normal Buttons</a></li>
+          <li><a href="#components_buttons_active">Active Buttons</a></li>
+          <li><a href="#components_buttons_disabled">Disabled Buttons</a></li>
+          <li><a href="#components_inputs_normal">Normal Inputs</a></li>
+          <li><a href="#components_inputs_disabled">Disabled Inputs</a></li>
+          <li><a href="#components_textareas">Textareas</a></li>
+          <li><a href="#components_panels">Panels</a></li>
+          <li><a href="#components_labels">Labels</a></li>
+          <li><a href="#components_loading">Loading</a></li>
+          <li><a href="#components_tooltips">Tooltips</a></li>
+          <li>
+            <a href="#components_checkboxes_radiobuttons"
+              >Checkboxes &amp; Radiobuttons</a
+            >
+          </li>
+          <li><a href="#components_links">Links</a></li>
+        </ul>
+        <li><a href="#helpers">Helpers and variables</a></li>
+        <ul>
+          <li><a href="#helper_classes">Helper classes</a></li>
+          <li><a href="#css_variables">CSS Variables</a></li>
+        </ul>
+        <li><a href="#examples">Combination examples</a></li>
+        <li><a href="#mobile">Mobile</a></li>
+      </ul>
+    </div>
+
+    <h3><a name="automatic"></a>Automatic theming</h3>
+    <div class="section">
+      Nyx theme automaticly styles unstyled html as best it can to avoid the
+      scenario where every button has to have it's own class to look decent etc.<br />
+    </div>
+
+    <h4><a name="automatic_links"></a>Link a</h4>
+    <div class="section">
+      <a href="javascript: void(0);">Test link</a><br />
+    </div>
+
+    <h4><a name="automatic_headers"></a>Headers h1-h6</h4>
+    <div class="section">
+      <h1>h1 - Header 1</h1>
+      <h2>h2 - Header 2</h2>
+      <h3>h3 - Header 3</h3>
+      <h4>h4 - Header 4</h4>
+      <h5>h5 - Header 5</h5>
+      <h6>h6 - Header 6</h6>
+    </div>
+
+    <h4>
+      <a name="automatic_checkboxes_radiobuttons"></a>
+      Checkboxes and Radio buttons(Only in webkit, otherwise these look
+      standard)
+    </h4>
+    <div class="section">
+      <input type="checkbox" /> Test 1<br />
+      <input type="checkbox" /> Test 2<br />
+      <input type="checkbox" /> Test 3<br />
+      <input type="radio" name="radio1" /> Test 1<br />
+      <input type="radio" name="radio1" /> Test 2<br />
+      <input type="radio" name="radio1" /> Test 3<br />
+    </div>
+
+    <h4><a name="automatic_hr"></a>Horizontal rule hr</h4>
+    <div class="section">
+      <hr />
+    </div>
+
+    <h4><a name="automatic_buttons_inputs"></a>Buttons &amp; Inputs</h4>
+    <div class="section">
+      <button>Test</button>
+      <input type="button" value="test" />
+      <input type="submit" value="test" />
+      <input />
+      <input type="text" />
+      <input type="password" />
+    </div>
+
+    <h4><a name="automatic_textarea"></a>Textarea</h4>
+    <div class="section">
+      <textarea>test</textarea>
+    </div>
+
+    <h3><a name="components"></a>CSS Components</h3>
+
+    <h4><a name="components_buttons_normal"></a>Normal buttons</h4>
+    <div class="section">
+      <a class="nyx-button-standard ">Test standard</a>
+      <a class="nyx-button-bright ">Test bright</a>
+      <a class="nyx-button-success ">Test success</a>
+      <a class="nyx-button-error ">Test error</a><br />
+    </div>
+
+    <h4><a name="components_buttons_active"></a>Active buttons</h4>
+    <div class="section">
+      <a class="nyx-button-active-standard">Test standard</a>
+      <a class="nyx-button-active-bright">Test bright</a>
+      <a class="nyx-button-active-success">Test success</a>
+      <a class="nyx-button-active-error">Test error</a><br />
+    </div>
+
+    <h4><a name="components_buttons_disabled"></a>Disabled buttons</h4>
+    <div class="section">
+      <a class="nyx-button-disabled-standard">Test standard</a>
+      <a class="nyx-button-disabled-bright">Test bright</a>
+      <a class="nyx-button-disabled-success">Test success</a>
+      <a class="nyx-button-disabled-error">Test error</a>
+      <br />
+    </div>
+
+    <h4><a name="components_inputs_normal"></a>Normal inputs</h4>
+    <div class="section">
+      <input type="text" class="nyx-input-standard" value="Test standard" />
+      <input type="text" class="nyx-input-bright" value="Test bright" />
+      <input type="text" class="nyx-input-success" value="Test success" />
+      <input type="text" class="nyx-input-error" value="Test error" />
+      <br />
+    </div>
+
+    <h4><a name="components_inputs_disabled"></a>Disabled inputs</h4>
+    <div class="section">
+      <input
+        type="text"
+        class="nyx-input-disabled-standard"
+        value="Test standard"
+      />
+      <input
+        type="text"
+        class="nyx-input-disabled-bright"
+        value="Test bright"
+      />
+      <input
+        type="text"
+        class="nyx-input-disabled-success"
+        value="Test success"
+      />
+      <input type="text" class="nyx-input-disabled-error" value="Test error" />
+      <br />
+    </div>
+
+    <h4><a name="components_textareas"></a>Textareas</h4>
+    <div class="section">
+      <textarea class="nyx-textarea-standard ">Test</textarea>
+      <textarea class="nyx-textarea-bright ">Test</textarea>
+      <textarea class="nyx-textarea-success ">Test</textarea>
+      <textarea class="nyx-textarea-error ">Test</textarea><br />
+    </div>
+
+    <h4><a name="components_panels"></a>Panels</h4>
+    <div class="section">
+      <div class="nyx-panel-standard">
+        <h5>Test</h5>
+        Text for testing<br />
+        <a href="javascript: void(0);">Test link</a><br />
+        <a class="nyx-button-standard ">Button</a><br />
+        <input type="text" class="nyx-input-standard" />
+      </div>
+      <div class="nyx-panel-bright">
+        <h5>Test</h5>
+        Text for testing<br />
+        <a href="javascript: void(0);">Test link</a><br />
+        <a class="nyx-button-bright ">Button</a><br />
+        <input type="text" class="nyx-input-bright" />
+      </div>
+      <div class="nyx-panel nyx-panel-success">
+        <h5>Test</h5>
+        Text for testing<br />
+        <a href="javascript: void(0);">Test link</a><br />
+        <a class="nyx-button-success ">Button</a><br />
+        <input type="text" class="nyx-input-success" />
+      </div>
+      <div class="nyx-panel-error">
+        <h5>Test</h5>
+        Text for testing<br />
+        <a href="javascript: void(0);">Test link</a> <br />
+        <a class="nyx-button-error">Button</a><br />
+        <input type="text" class="nyx-input-error " />
+      </div>
+      <br />
+    </div>
+
+    <h4><a name="components_labels"></a>Labels</h4>
+    <div class="section">
+      <span class="nyx-label-standard">standard</span>
+      <span class="nyx-label-bright">bright</span>
+      <span class="nyx-label-success">success</span>
+      <span class="nyx-label-error">error</span><br />
+    </div>
+
+    <h4><a name="components_loading"></a>Loading</h4>
+    <div class="section">
+      <span class="nyx-loading-standard">Loading...</span>
+      <span class="nyx-loading-bright">Loading...</span>
+      <span class="nyx-loading-success">Loading...</span>
+      <span class="nyx-loading-error">Loading...</span><br />
+    </div>
+
+    <h4><a name="components_tooltips"></a>Tooltips</h4>
+    <div class="section">
+      <div style="text-align: center;">
+        <span class="nyx-tooltip-standard">
+          Hover me 2
+          <span
+            class="nyx-tooltip-bubble"
+            style="width: 200px; margin-left: -100px;"
+          >
+            <span>String with <b>text</b></span>
+          </span>
+        </span>
+        <span class="nyx-tooltip-bright">
+          Hover me 2
+          <span
+            class="nyx-tooltip-bubble"
+            style="width: 200px; margin-left: -100px;"
+          >
+            <span>String with <b>text</b></span>
+          </span>
+        </span>
+        <span class="nyx-tooltip-success">
+          Hover me 2
+          <span
+            class="nyx-tooltip-bubble"
+            style="width: 200px; margin-left: -100px;"
+          >
+            <span>String with <b>text</b></span>
+          </span>
+        </span>
+        <span class="nyx-tooltip-error">
+          Hover me 2
+          <span
+            class="nyx-tooltip-bubble"
+            style="width: 200px; margin-left: -100px;"
+          >
+            <span>String with <b>text</b></span>
+          </span>
+        </span>
+      </div>
+      <br />
+    </div>
+
+    <h4>
+      <a name="components_checkboxes_radiobuttons"></a>Checkboxes &amp;
+      Radiobuttons
+    </h4>
+    <div class="section">
+      <input type="checkbox" class="nyx-checkbox-standard" />
+      Standard<br />
+      <input type="checkbox" class="nyx-checkbox-bright" />
+      Bright<br />
+      <input type="checkbox" class="nyx-checkbox-success" />
+      Success<br />
+      <input type="checkbox" class="nyx-checkbox-error" />
+      Error<br />
+      <input type="radio" class="nyx-radio-standard" name="radio2" />
+      Standard<br />
+      <input type="radio" class="nyx-radio-bright" name="radio2" />
+      Bright<br />
+      <input type="radio" class="nyx-radio-success" name="radio2" />
+      Success<br />
+      <input type="radio" class="nyx-radio-error" name="radio2" />
+      Error<br />
+    </div>
+
+    <h4><a name="components_links"></a>Links</h4>
+    <div class="section">
+      <a href="javascript: void(0);" class="nyx-link-standard">Standard</a
+      ><br />
+      <a href="javascript: void(0);" class="nyx-link-bright">Bright</a><br />
+      <a href="javascript: void(0);" class="nyx-link-success">Success</a><br />
+      <a href="javascript: void(0);" class="nyx-link-error">Error</a><br />
+    </div>
+
+    <h3><a name="helpers"></a>Helpers &amp; Variables</h3>
+
+    <h4><a name="helper_classes"></a>Helper classes</h4>
+    <div class="section">
+      nyx-color-text <span class="nyx-color-text">Test</span><br />
+      nyx-color-standard <span class="nyx-color-standard">Test</span><br />
+      nyx-background-standard <span class="nyx-background-standard">Test</span
+      ><br />
+      nyx-color-bright <span class="nyx-color-bright">Test</span><br />
+      nyx-background-bright <span class="nyx-background-bright">Test</span
+      ><br />
+      nyx-color-success <span class="nyx-color-success">Test</span><br />
+      nyx-background-success <span class="nyx-background-success">Test</span
+      ><br />
+      nyx-color-error <span class="nyx-color-error">Test</span><br />
+      nyx-background-error <span class="nyx-background-error">Test</span><br />
+      nyx-background-color <span class="nyx-background-color">Test</span><br />
+    </div>
+
+    <h4><a name="css_variables"></a>CSS Variable names</h4>
+    <div class="section"></div>
+    --nyx-color-text
+    <span style="color: var(--nyx-color-text);">Test</span><br />
+    --nyx-color-standard
+    <span style="color: var(--nyx-color-standard);">Test</span><br />
+    --nyx-background-standard
+    <span style="background: var(--nyx-background-standard);">Test</span><br />
+    --nyx-color-bright <span style="color: var(--nyx-color-bright);">Test</span
+    ><br />
+    --nyx-background-bright
+    <span style="background: var(--nyx-background-bright);">Test</span><br />
+    --nyx-color-success
+    <span style="color: var(--nyx-color-success);">Test</span><br />
+    --nyx-background-success
+    <span style="background: var(--nyx-background-success);">Test</span><br />
+    --nyx-color-error <span style="color: var(--nyx-color-error);">Test</span
+    ><br />
+    --nyx-background-error
+    <span style="background: var(--nyx-background-error);">Test</span><br />
+    --nyx-background-color
+    <span style="background: var(--nyx-background-color); color: white;"
+      >Test</span
+    ><br />
+
+    <h3><a name="examples"></a>Combination examples</h3>
+    <div class="section">
+      <div class="nyx-panel-standard">
+        <div>
+          <h2>
+            Test<a class="nyx-button-standard" style="float: right;">
+              Test 1
+            </a>
+            <a class="nyx-button-standard " style="float: right;">
+              Test 2<span class="nyx-label nyx-label-success">status</span>
+            </a>
+            <a class="nyx-button-error " style="float: right;">Test 3</a>
+          </h2>
+        </div>
+        <div class="nyx-panel-standard">
+          Contents 1
+          <div class="nyx-panel-error">
+            Contents 2
+            <div class="nyx-panel-standard">
+              Contents 3
+              <div class="nyx-panel-standard">Contents 4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3><a name="mobile"></a>Mobile Adjustments</h3>
+    <div class="section">
+      &lt;link rel="stylesheet" type="text/css" href="nyx-mobile.min.css" /&gt;
+    </div>
+  </body>
+</html>
