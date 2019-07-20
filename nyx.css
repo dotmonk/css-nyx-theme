@@ -856,7 +856,7 @@
       background-color: rgba(0,56,49,255);
       box-shadow: inset 0 0 10px rgba(50,226,219,255);
     }
-    input[type='text'].nyx-input-standard.nyx-input-disabled, input[type='password'].nyx-input-standard.nyx-input-disabled, input:not([type]).nyx-input-standard.nyx-input-disabled {
+    input[type='text'].nyx-input-disabled-standard, input[type='password'].nyx-input-disabled-standard, input:not([type]).nyx-input-disabled-standard {
       background-color: rgba(0,56,49,255);
       border-color: rgba(0,156,149,255);
       color: rgba(0,156,149,255);
@@ -880,7 +880,7 @@
       background-color: rgba(0,75,71,255);
       box-shadow: inset 0 0 10px rgba(164,245,241,255);
     }
-    input[type='text'].nyx-input-bright.nyx-input-disabled, input[type='password'].nyx-input-bright.nyx-input-disabled, input:not([type]).nyx-input-bright.nyx-input-disabled {
+    input[type='text'].nyx-input-disabled-bright, input[type='password'].nyx-input-disabled-bright, input:not([type]).nyx-input-disabled-bright {
       background-color: rgba(0,75,71,255);
       border-color: rgba(94,175,171,255);
       color: rgba(94,175,171,255);
@@ -904,7 +904,7 @@
       background-color: rgba(0,45,0,255);
       box-shadow: inset 0 0 10px rgba(77,215,133,255);
     }
-    input[type='text'].nyx-input-success.nyx-input-disabled, input[type='password'].nyx-input-success.nyx-input-disabled, input:not([type]).nyx-input-success.nyx-input-disabled {
+    input[type='text'].nyx-input-disabled-success, input[type='password'].nyx-input-disabled-success, input:not([type]).nyx-input-disabled-success {
       background-color: rgba(0,45,0,255);
       border-color: rgba(7,145,63,255);
       color: rgba(7,145,63,255);
@@ -928,7 +928,7 @@
       background-color: rgba(54,0,0,255);
       box-shadow: inset 0 0 10px rgba(224,47,51,255);
     }
-    input[type='text'].nyx-input-error.nyx-input-disabled, input[type='password'].nyx-input-error.nyx-input-disabled, input:not([type]).nyx-input-error.nyx-input-disabled {
+    input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-disabled-error, input:not([type]).nyx-input-disabled-error {
       background-color: rgba(54,0,0,255);
       border-color: rgba(154,0,0,255);
       color: rgba(154,0,0,255);

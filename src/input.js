@@ -18,7 +18,7 @@ module.exports = {
       background-color: ${colors.brightness(colors[color], -180)};
       box-shadow: inset 0 0 10px ${colors.brightness(colors[color], -10)};
     }
-    input[type='text'].nyx-input-${color}.nyx-input-disabled, input[type='password'].nyx-input-${color}.nyx-input-disabled, input:not([type]).nyx-input-${color}.nyx-input-disabled {
+    input[type='text'].nyx-input-disabled-${color}, input[type='password'].nyx-input-disabled-${color}, input:not([type]).nyx-input-disabled-${color} {
       background-color: ${colors.brightness(colors[color], -180)};
       border-color: ${colors.brightness(colors[color], -80)};
       color: ${colors.brightness(colors[color], -80)};
