@@ -2,7 +2,7 @@ const colors = require("./colors");
 const fonts = require("./fonts");
 
 module.exports = {
-  linkColorStyle: color => `
+  linkColorStyle: (color) => `
   a.nyx-link-${color},
   a.nyx-link-${color}:visited,
   a.nyx-link-${color}:active {
@@ -19,6 +19,7 @@ module.exports = {
     a,
     a:visited,
     a:active {
+      cursor: pointer;
       color: ${colors.standard};
       text-decoration: underline;
     }
@@ -27,5 +28,5 @@ module.exports = {
       color: ${colors.brightness(colors.standard, 50)};
     }
       
-  `
+  `,
 };

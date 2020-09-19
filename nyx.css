@@ -79,6 +79,7 @@
     a,
     a:visited,
     a:active {
+      cursor: pointer;
       color: #3cece5;
       text-decoration: underline;
     }
