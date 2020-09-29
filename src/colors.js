@@ -11,19 +11,19 @@ const colors = {
   bright: "#aefffb",
   text: "#8ff2ed",
   error: "#ea393d",
-  success: "#57e18f",
+  success: "#7ef575",
   standard: "#3cece5",
-  background: "#000"
+  background: "#000",
 };
 
-const colorToRGBA = colorKey => {
+const colorToRGBA = (colorKey) => {
   const color = colors[colorKey] || colorKey;
   if (!conversionCache.hasOwnProperty(colorKey)) {
     conversionContext.clearRect(0, 0, 1, 1);
     conversionContext.fillStyle = color;
     conversionContext.fillRect(0, 0, 1, 1);
     conversionCache[colorKey] = [
-      ...conversionContext.getImageData(0, 0, 1, 1).data
+      ...conversionContext.getImageData(0, 0, 1, 1).data,
     ];
   }
   return conversionCache[colorKey];
@@ -31,7 +31,7 @@ const colorToRGBA = colorKey => {
 
 const brightness = (color, mod) => {
   const rgba = colorToRGBA(color);
-  const sanity = number => Math.min(Math.max(0, number), 255);
+  const sanity = (number) => Math.min(Math.max(0, number), 255);
   return `rgba(${sanity(rgba[0] + mod)},${sanity(rgba[1] + mod)},${sanity(
     rgba[2] + mod
   )},${rgba[3]})`;
