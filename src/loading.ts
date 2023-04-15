@@ -1,14 +1,14 @@
-import {colors} from "./common";
+import {colors, cssSelectorsToString} from "./common";
 
 export default {
-  spinnerColorStyle: color => `
-    .nyx-loading-${color} {
-      animation-name: nyx-loading;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      color: ${colors[color]};
+  spinnerColorStyle: color => cssSelectorsToString({
+    [`.nyx-loading-${color}`]: {
+      animationName: "nyx-loading",
+      animationDuration: "1s",
+      animationIterationCount: "infinite",
+      color: colors[color],
     }
-  `,
+  }),
   default: `
     @keyframes nyx-loading {
       0% {

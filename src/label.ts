@@ -1,28 +1,28 @@
-import {colors, fonts} from "./common";
+import {colors, fonts, cssSelectorsToString} from "./common";
 
 export default {
-  labelColorStyle: color => `
-    .nyx-label-${color} {
-      background-color: ${colors.brightness(colors[color], -200)};
-      border-color: ${colors[color]};
-      color: ${colors[color]};
-      padding-top: 2px;
-      padding-bottom: 2px;
-      padding-left: 2px;
-      padding-right: 2px;
-      text-align: center;
-      border-radius: 3px;
-      border-width: 1px;
-      border-style: solid;
-      display: inline-block;
-      letter-spacing: 1.5px;
-      font-family: ${fonts.default};
-      font-size: 10px;
-      text-shadow: 0px 0px 3px ${colors.background};
-      margin-right: 2px;
-      margin-left: 2px;
-      margin-top: -2px;
-      margin-bottom: -2px;
+  labelColorStyle: color => cssSelectorsToString({
+    [`.nyx-label-${color}`]: {
+      backgroundColor: colors.brightness(colors[color], -200),
+      borderColor: colors[color],
+      color: colors[color],
+      paddingTop: "2px",
+      paddingBottom: "2px",
+      paddingLeft: "2px",
+      paddingRight: "2px",
+      textAlign: "center",
+      borderRadius: "3px",
+      borderWidth: "1px",
+      borderStyle: "solid",
+      display: "inline-block",
+      letterSpacing: "1.5px",
+      fontFamily: fonts.default,
+      fontSize: "10px",
+      textShadow: `0px 0px 3px ${colors.background}`,
+      marginRight: "2px",
+      marginLeft: "2px",
+      marginTop: "-2px",
+      marginBottom: "-2px",
     }
-  `
+  })
 };
