@@ -1,6 +1,5 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
-const combineSelectors = require("./combineSelectors");
+import {colors, fonts, combineSelectors} from "./common";
+
 const selectors = [
   "a",
   "button",
@@ -8,7 +7,7 @@ const selectors = [
   "input[type='button']"
 ];
 
-module.exports = {
+export default {
   buttonColorStyle: color => `
     ${combineSelectors(selectors, `.nyx-button-${color}`)} {
       padding-top: 4px;

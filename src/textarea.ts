@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors, fonts} from "./common";
 
-module.exports = {
+export default {
   textareaColorStyle: (color) => `
     textarea.nyx-textarea-${color} {
       border-style: solid;

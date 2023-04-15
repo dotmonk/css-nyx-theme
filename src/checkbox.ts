@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   checkboxColorStyle: color => `
   input[type=checkbox].nyx-checkbox-${color}:checked:after, input[type=checkbox].nyx-checkbox-${color}:after{
     content: ' ';

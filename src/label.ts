@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors, fonts} from "./common";
 
-module.exports = {
+export default {
   labelColorStyle: color => `
     .nyx-label-${color} {
       background-color: ${colors.brightness(colors[color], -200)};

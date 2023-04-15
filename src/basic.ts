@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors, fonts} from "./common";
 
-module.exports = `
+export default `
   :root {
     --nyx-color-text: ${colors.text};
     --nyx-color-standard: ${colors.standard};

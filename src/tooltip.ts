@@ -1,6 +1,6 @@
-const colors = require("./colors");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   tooltipColorStyle: color => `
     .nyx-tooltip-${color} {
       position: relative;

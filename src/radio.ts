@@ -1,6 +1,6 @@
-const colors = require("./colors");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   radioColorStyle: color => `
   input[type=radio].nyx-radio-${color}:checked:after, input[type=radio].nyx-radio-${color}:after{
     content: ' ';

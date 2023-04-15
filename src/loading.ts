@@ -1,6 +1,6 @@
-const colors = require("./colors");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   spinnerColorStyle: color => `
     .nyx-loading-${color} {
       animation-name: nyx-loading;

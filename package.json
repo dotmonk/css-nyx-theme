@@ -1,19 +1,19 @@
 {
   "name": "css-nyx-theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CSS Theme",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustZisGuy/css-nyx-theme.git"
+    "url": "git+https://github.com/dotmonk/css-nyx-theme.git"
   },
   "watch": {
     "build": "src/*.js"
   },
   "scripts": {
-    "build": "npm run main; npm run mobile",
-    "main": "node src/index.js > ./nyx.css; minify ./nyx.css > ./nyx.min.css",
-    "mobile": "node src/mobile.js > ./nyx-mobile.css; minify ./nyx-mobile.css > ./nyx-mobile.min.css",
+    "build": "npm run main && npm run mobile",
+    "main": "ts-node src/index.ts > ./nyx.css && minify ./nyx.css > ./nyx.min.css",
+    "mobile": "ts-node src/mobile.ts > ./nyx-mobile.css && minify ./nyx-mobile.css > ./nyx-mobile.min.css",
     "dev": "npm-watch"
   },
   "keywords": [
@@ -23,13 +23,15 @@
   "author": "Magnus Weinberg <magnus.weinberg@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JustZisGuy/css-nyx-theme/issues"
+    "url": "https://github.com/dotmonk/css-nyx-theme/issues"
   },
-  "homepage": "https://github.com/JustZisGuy/css-nyx-theme#readme",
+  "homepage": "https://github.com/dotmonk/css-nyx-theme#readme",
   "devDependencies": {
     "canvas": "^2.5.0",
     "jsdom": "^13.1.0",
-    "minify": "^4.1.0",
-    "npm-watch": "^0.6.0"
+    "minify": "^9.2.0",
+    "npm-watch": "^0.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }

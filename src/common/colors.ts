@@ -1,4 +1,4 @@
-const jsdom = require("jsdom");
+import * as jsdom from "jsdom";
 const { JSDOM } = jsdom;
 const dom = new JSDOM(`<!DOCTYPE html>`);
 const conversionCanvas = dom.window.document.createElement("canvas");
@@ -42,4 +42,4 @@ const opacity = (color, opacity) => {
   return `rgba(${rgba[0]},${rgba[1]},${rgba[2]},${opacity})`;
 };
 
-module.exports = Object.assign({ brightness, opacity }, colors);
+export default Object.assign({ brightness, opacity }, colors);

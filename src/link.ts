@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   linkColorStyle: (color) => `
   a.nyx-link-${color},
   a.nyx-link-${color}:visited,

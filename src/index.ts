@@ -1,15 +1,15 @@
-const basic = require("./basic");
-const label = require("./label");
-const button = require("./button");
-const input = require("./input");
-const loading = require("./loading");
-const panel = require("./panel");
-const tooltip = require("./tooltip");
-const textarea = require("./textarea");
-const checkbox = require("./checkbox");
-const link = require("./link");
-const radio = require("./radio");
-const hr = require("./hr");
+import basic from "./basic";
+import label from "./label";
+import button from "./button";
+import input from "./input";
+import loading from "./loading";
+import panel from "./panel";
+import tooltip from "./tooltip";
+import textarea from "./textarea";
+import checkbox from "./checkbox";
+import link from "./link";
+import radio from "./radio";
+import hr from "./hr";
 
 const themeColors = ["standard", "bright", "success", "error"];
 

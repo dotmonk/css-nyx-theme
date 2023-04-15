@@ -1,7 +1,6 @@
-const colors = require("./colors");
-const fonts = require("./fonts");
+import {colors, fonts} from "./common";
 
-module.exports = {
+export default {
   inputColorStyle: (color) => `
     input[type='text'].nyx-input-${color}, input[type='password'].nyx-input-${color}, input:not([type]).nyx-input-${color} {
       box-shadow: inset 0 0 5px ${colors.brightness(colors[color], -10)};

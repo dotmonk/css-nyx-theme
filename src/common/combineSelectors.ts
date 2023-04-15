@@ -1,2 +1,2 @@
-module.exports = (prefixes, suffix) =>
+export default (prefixes, suffix) =>
   prefixes.map(p => `${p}${suffix}`).join(", ");

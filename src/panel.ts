@@ -1,6 +1,6 @@
-const colors = require("./colors");
+import {colors} from "./common";
 
-module.exports = {
+export default {
   panelColorStyle: color => `
     .nyx-panel-${color} {
       padding-top: 4px;
