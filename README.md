@@ -1,5 +1,5 @@
 # css-nyx-theme
 
-[Preview and reference](https://justzisguy.github.io/css-nyx-theme/)
+[Preview and reference](https://dotmonk.github.io/css-nyx-theme/)
 
-Needed to run: sudo apt-get install libpixman-1-dev
+I needed to run: sudo apt-get install libpixman-1-dev before build
