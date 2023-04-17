@@ -978,8 +978,8 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   background-color: rgba(0,36,29,255);
   border-color: #3cece5;
   color: #3cece5;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -1002,8 +1002,8 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   background-color: rgba(0,55,51,255);
   border-color: #aefffb;
   color: #aefffb;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -1026,8 +1026,8 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   background-color: rgba(0,45,0,255);
   border-color: #7ef575;
   color: #7ef575;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -1050,8 +1050,8 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   background-color: rgba(34,0,0,255);
   border-color: #ea393d;
   color: #ea393d;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
