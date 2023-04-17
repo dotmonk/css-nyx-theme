@@ -162,6 +162,19 @@ hr {
       }
     }
   
+
+    @keyframes nyx-flashing {
+      0% {
+        opacity: 0.5;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0.5;
+      }
+    }
+  
 textarea {
   border-style: solid;
   display: inline-block;
@@ -1086,6 +1099,38 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   animation-duration: 1s;
   animation-iteration-count: infinite;
   color: #ea393d;
+}
+
+
+.nyx-flashing-standard {
+  animation-name: nyx-flashing;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  color: rgba(80,255,249,255);
+}
+
+
+.nyx-flashing-bright {
+  animation-name: nyx-flashing;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  color: rgba(194,255,255,255);
+}
+
+
+.nyx-flashing-success {
+  animation-name: nyx-flashing;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  color: rgba(146,255,137,255);
+}
+
+
+.nyx-flashing-error {
+  animation-name: nyx-flashing;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  color: rgba(254,77,81,255);
 }
 
 

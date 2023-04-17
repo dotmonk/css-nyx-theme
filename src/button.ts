@@ -89,7 +89,7 @@ export default {
         borderStyle: "solid",
         display: "inline-block",
         letterSpacing: "1.5px",
-        fontFamily: "Helvetica, Arial",
+        fontFamily: fonts.default,
         fontSize: "12px",
         textShadow: `0px 0px 3px ${colors.background}`,
         margin: "2px",
