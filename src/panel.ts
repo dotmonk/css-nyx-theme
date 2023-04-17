@@ -5,11 +5,11 @@ export default {
     [`.nyx-panel-${color}`]: {
       paddingTop: "4px",
       paddingBottom: "4px",
-      paddingLeft: "4px",
-      paddingRight: "4px",
+      paddingLeft: "10px",
+      paddingRight: "10px",
       borderWidth: "1px",
       borderStyle: "solid",
-      margin: "2px",
+      margin: "7px",
       backgroundColor: colors.opacity(
         colors.brightness(colors[color], -50),
         0.2
