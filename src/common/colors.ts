@@ -9,7 +9,7 @@ const conversionCache = {};
 
 const colors = {
   bright: "#aefffb",
-  text: "#8ff2ed",
+  text: "#5fc2bd",
   error: "#ea393d",
   success: "#7ef575",
   standard: "#3cece5",

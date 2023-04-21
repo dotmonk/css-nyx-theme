@@ -1,5 +1,5 @@
 :root {
-  --nyx-color-text: #8ff2ed;
+  --nyx-color-text: #5fc2bd;
   --nyx-color-standard: #3cece5;
   --nyx-background-standard: rgba(0,86,79,255);
   --nyx-color-bright: #aefffb;
@@ -12,7 +12,7 @@
 }
 
 .nyx-color-text {
-  color: #8ff2ed;
+  color: #5fc2bd;
 }
 
 .nyx-color-standard {
@@ -53,7 +53,7 @@
 
 body {
   background: #000;
-  color: #8ff2ed;
+  color: #5fc2bd;
   font-family: Helvetica, Arial;
   letter-spacing: 0.03em;
   font-weight: 100;
@@ -145,7 +145,7 @@ input[type=radio]:after {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(143,242,237,0), #8ff2ed, rgba(143,242,237,0));
+  background-image: linear-gradient(to right, rgba(95,194,189,0), #5fc2bd, rgba(95,194,189,0));
 }
 
 
