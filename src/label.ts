@@ -1,9 +1,9 @@
-import {colors, fonts, cssSelectorsToString} from "./common";
+import {colors, fonts, cssSelectorsToString, brightness} from "./common";
 
 export default {
   labelColorStyle: color => cssSelectorsToString({
     [`.nyx-label-${color}`]: {
-      backgroundColor: colors.brightness(colors[color], -200),
+      backgroundColor: colors.brightness(colors[color], brightness.darkest),
       borderColor: colors[color],
       color: colors[color],
       paddingTop: "2px",

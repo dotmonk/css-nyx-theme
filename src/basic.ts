@@ -1,16 +1,16 @@
-import { colors, fonts, cssSelectorsToString } from "./common";
+import { colors, fonts, cssSelectorsToString, brightness } from "./common";
 
 export default cssSelectorsToString({
   ":root": {
     "--nyx-color-text": colors.text,
     "--nyx-color-standard": colors.standard,
-    "--nyx-background-standard": colors.brightness(colors.standard, -150),
+    "--nyx-background-standard": colors.brightness(colors.standard, brightness.dark),
     "--nyx-color-bright": colors.bright,
-    "--nyx-background-bright": colors.brightness(colors.bright, -150),
+    "--nyx-background-bright": colors.brightness(colors.bright, brightness.dark),
     "--nyx-color-success": colors.success,
-    "--nyx-background-success": colors.brightness(colors.success, -150),
+    "--nyx-background-success": colors.brightness(colors.success, brightness.dark),
     "--nyx-color-error": colors.error,
-    "--nyx-background-error": colors.brightness(colors.error, -150),
+    "--nyx-background-error": colors.brightness(colors.error, brightness.dark),
     "--nyx-background-color": colors.background,
   },
   ".nyx-color-text": {
@@ -20,19 +20,19 @@ export default cssSelectorsToString({
     color: colors.standard,
   },
   ".nyx-background-standard": {
-    background: colors.brightness(colors.standard, -150),
+    background: colors.brightness(colors.standard, brightness.dark),
   },
   ".nyx-color-bright": { color: colors.bright },
   ".nyx-background-bright": {
-    background: colors.brightness(colors.bright, -150),
+    background: colors.brightness(colors.bright, brightness.dark),
   },
   ".nyx-color-success": { color: colors.success },
   ".nyx-background-success": {
-    background: colors.brightness(colors.success, -150),
+    background: colors.brightness(colors.success, brightness.dark),
   },
   ".nyx-color-error": { color: colors.error },
   ".nyx-background-error": {
-    background: colors.brightness(colors.error, -150),
+    background: colors.brightness(colors.error, brightness.dark),
   },
   ".nyx-background-color": { background: colors.background },
 

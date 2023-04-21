@@ -89,7 +89,7 @@ input[type=checkbox]:checked:after {
 }
 
 input[type=checkbox]:after {
-  background-color: rgba(0,61,54,255);
+  background-color: rgba(0,86,79,255);
 }
 
 
@@ -131,7 +131,7 @@ input[type=radio]:checked:after {
 }
 
 input[type=radio]:after {
-  background-color: rgba(0,61,54,255);
+  background-color: rgba(0,86,79,255);
 }
 
 
@@ -187,7 +187,7 @@ textarea {
   border-width: 1px;
   font-size: 10px;
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
 }
@@ -200,14 +200,14 @@ textarea:hover {
 textarea:focus {
   outline: none;
   color: rgba(160,255,255,255);
-  background-color: rgba(0,56,49,255);
+  background-color: rgba(0,26,19,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
 
 button, input[type='submit'], input[type='button'] {
-  color: rgba(100,255,255,255);
-  background-color: rgba(0,36,29,255);
+  color: rgba(110,255,255,255);
+  background-color: rgba(0,26,19,255);
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 10px;
@@ -230,13 +230,13 @@ button, input[type='submit'], input[type='button'] {
 }
 
 button:hover, input[type='submit']:hover, input[type='button']:hover {
-  color: rgba(100,255,255,255);
-  background-color: rgba(0,61,54,255);
+  color: rgba(110,255,255,255);
+  background-color: rgba(0,86,79,255);
 }
 
 button:active, input[type='submit']:active, input[type='button']:active {
   background-color: rgba(0,86,79,255);
-  color: rgba(100,255,255,255);
+  color: rgba(110,255,255,255);
 }
 
 
@@ -252,7 +252,7 @@ input[type='text'], input[type='password'], input:not([type]) {
   text-shadow: 0px 0px 3px #000;
   margin: 2px;
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
 }
@@ -260,7 +260,7 @@ input[type='text'], input[type='password'], input:not([type]) {
 input:not([type]):focus, input[type='text']:focus, input[type='password']:focus {
   outline: none;
   color: rgba(160,255,255,255);
-  background-color: rgba(0,56,49,255);
+  background-color: rgba(0,26,19,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
@@ -286,7 +286,7 @@ input[type=checkbox].nyx-checkbox-standard:checked:after {
 }
 
 input[type=checkbox].nyx-checkbox-standard:after {
-  background-color: rgba(0,61,54,255);
+  background-color: rgba(0,86,79,255);
 }
 
 
@@ -306,7 +306,7 @@ input[type=checkbox].nyx-checkbox-bright:checked:after {
 }
 
 input[type=checkbox].nyx-checkbox-bright:after {
-  background-color: rgba(0,80,76,255);
+  background-color: rgba(24,105,101,255);
 }
 
 
@@ -326,7 +326,7 @@ input[type=checkbox].nyx-checkbox-success:checked:after {
 }
 
 input[type=checkbox].nyx-checkbox-success:after {
-  background-color: rgba(0,70,0,255);
+  background-color: rgba(0,95,0,255);
 }
 
 
@@ -346,7 +346,7 @@ input[type=checkbox].nyx-checkbox-error:checked:after {
 }
 
 input[type=checkbox].nyx-checkbox-error:after {
-  background-color: rgba(59,0,0,255);
+  background-color: rgba(84,0,0,255);
 }
 
 
@@ -407,7 +407,7 @@ input[type=radio].nyx-radio-standard:checked:after {
 }
 
 input[type=radio].nyx-radio-standard:after {
-  background-color: rgba(0,61,54,255);
+  background-color: rgba(0,86,79,255);
 }
 
 
@@ -428,7 +428,7 @@ input[type=radio].nyx-radio-bright:checked:after {
 }
 
 input[type=radio].nyx-radio-bright:after {
-  background-color: rgba(0,80,76,255);
+  background-color: rgba(24,105,101,255);
 }
 
 
@@ -449,7 +449,7 @@ input[type=radio].nyx-radio-success:checked:after {
 }
 
 input[type=radio].nyx-radio-success:after {
-  background-color: rgba(0,70,0,255);
+  background-color: rgba(0,95,0,255);
 }
 
 
@@ -470,7 +470,7 @@ input[type=radio].nyx-radio-error:checked:after {
 }
 
 input[type=radio].nyx-radio-error:after {
-  background-color: rgba(59,0,0,255);
+  background-color: rgba(84,0,0,255);
 }
 
 
@@ -493,19 +493,19 @@ a.nyx-button-standard, button.nyx-button-standard, input[type='submit'].nyx-butt
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,36,29,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
-  color: rgba(100,255,255,255);
+  color: rgba(110,255,255,255);
 }
 
 a.nyx-button-standard:hover, button.nyx-button-standard:hover, input[type='submit'].nyx-button-standard:hover, input[type='button'].nyx-button-standard:hover {
-  color: rgba(100,255,255,255);
-  background-color: rgba(0,61,54,255);
+  color: rgba(110,255,255,255);
+  background-color: rgba(0,86,79,255);
 }
 
 a.nyx-button-standard:active, button.nyx-button-standard:active, input[type='submit'].nyx-button-standard:active, input[type='button'].nyx-button-standard:active {
   background-color: rgba(0,86,79,255);
-  color: rgba(100,255,255,255);
+  color: rgba(110,255,255,255);
 }
 
 a.nyx-button-active-standard, button.nyx-button-active-standard, input[type='submit'].nyx-button-active-standard, input[type='button'].nyx-button-active-standard {
@@ -529,18 +529,18 @@ a.nyx-button-active-standard, button.nyx-button-active-standard, input[type='sub
   outline: none;
   border-color: #3cece5;
   background-color: rgba(0,86,79,255);
-  color: rgba(100,255,255,255);
+  color: rgba(110,255,255,255);
 }
 
 a.nyx-button-active-standard:hover, button.nyx-button-active-standard:hover, input[type='submit'].nyx-button-active-standard:hover, input[type='button'].nyx-button-active-standard:hover {
-  color: rgba(100,255,255,255);
-  background-color: rgba(0,111,104,255);
+  color: rgba(110,255,255,255);
+  background-color: rgba(0,86,79,255);
 }
 
 a.nyx-button-active-standard:active, button.nyx-button-active-standard:active, input[type='submit'].nyx-button-active-standard:active, input[type='button'].nyx-button-active-standard:active {
   background-color: rgba(0,136,129,255);
   border-color: #3cece5;
-  color: rgba(140,255,255,255);
+  color: rgba(160,255,255,255);
 }
 
 a.nyx-button-disabled-standard, button.nyx-button-disabled-standard, input[type='submit'].nyx-button-disabled-standard, input[type='button'].nyx-button-disabled-standard {
@@ -562,7 +562,7 @@ a.nyx-button-disabled-standard, button.nyx-button-disabled-standard, input[type=
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,36,29,255);
+  background-color: rgba(0,26,19,255);
   border-color: rgba(0,136,129,255);
   color: rgba(0,136,129,255);
 }
@@ -591,19 +591,19 @@ a.nyx-button-bright, button.nyx-button-bright, input[type='submit'].nyx-button-b
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,55,51,255);
+  background-color: rgba(0,45,41,255);
   border-color: #aefffb;
-  color: rgba(214,255,255,255);
+  color: rgba(224,255,255,255);
 }
 
 a.nyx-button-bright:hover, button.nyx-button-bright:hover, input[type='submit'].nyx-button-bright:hover, input[type='button'].nyx-button-bright:hover {
-  color: rgba(214,255,255,255);
-  background-color: rgba(0,80,76,255);
+  color: rgba(224,255,255,255);
+  background-color: rgba(24,105,101,255);
 }
 
 a.nyx-button-bright:active, button.nyx-button-bright:active, input[type='submit'].nyx-button-bright:active, input[type='button'].nyx-button-bright:active {
   background-color: rgba(24,105,101,255);
-  color: rgba(214,255,255,255);
+  color: rgba(224,255,255,255);
 }
 
 a.nyx-button-active-bright, button.nyx-button-active-bright, input[type='submit'].nyx-button-active-bright, input[type='button'].nyx-button-active-bright {
@@ -627,18 +627,18 @@ a.nyx-button-active-bright, button.nyx-button-active-bright, input[type='submit'
   outline: none;
   border-color: #aefffb;
   background-color: rgba(24,105,101,255);
-  color: rgba(214,255,255,255);
+  color: rgba(224,255,255,255);
 }
 
 a.nyx-button-active-bright:hover, button.nyx-button-active-bright:hover, input[type='submit'].nyx-button-active-bright:hover, input[type='button'].nyx-button-active-bright:hover {
-  color: rgba(214,255,255,255);
-  background-color: rgba(49,130,126,255);
+  color: rgba(224,255,255,255);
+  background-color: rgba(24,105,101,255);
 }
 
 a.nyx-button-active-bright:active, button.nyx-button-active-bright:active, input[type='submit'].nyx-button-active-bright:active, input[type='button'].nyx-button-active-bright:active {
   background-color: rgba(74,155,151,255);
   border-color: #aefffb;
-  color: rgba(254,255,255,255);
+  color: rgba(255,255,255,255);
 }
 
 a.nyx-button-disabled-bright, button.nyx-button-disabled-bright, input[type='submit'].nyx-button-disabled-bright, input[type='button'].nyx-button-disabled-bright {
@@ -660,7 +660,7 @@ a.nyx-button-disabled-bright, button.nyx-button-disabled-bright, input[type='sub
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,55,51,255);
+  background-color: rgba(0,45,41,255);
   border-color: rgba(74,155,151,255);
   color: rgba(74,155,151,255);
 }
@@ -689,19 +689,19 @@ a.nyx-button-success, button.nyx-button-success, input[type='submit'].nyx-button
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,45,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: #7ef575;
-  color: rgba(166,255,157,255);
+  color: rgba(176,255,167,255);
 }
 
 a.nyx-button-success:hover, button.nyx-button-success:hover, input[type='submit'].nyx-button-success:hover, input[type='button'].nyx-button-success:hover {
-  color: rgba(166,255,157,255);
-  background-color: rgba(0,70,0,255);
+  color: rgba(176,255,167,255);
+  background-color: rgba(0,95,0,255);
 }
 
 a.nyx-button-success:active, button.nyx-button-success:active, input[type='submit'].nyx-button-success:active, input[type='button'].nyx-button-success:active {
   background-color: rgba(0,95,0,255);
-  color: rgba(166,255,157,255);
+  color: rgba(176,255,167,255);
 }
 
 a.nyx-button-active-success, button.nyx-button-active-success, input[type='submit'].nyx-button-active-success, input[type='button'].nyx-button-active-success {
@@ -725,18 +725,18 @@ a.nyx-button-active-success, button.nyx-button-active-success, input[type='submi
   outline: none;
   border-color: #7ef575;
   background-color: rgba(0,95,0,255);
-  color: rgba(166,255,157,255);
+  color: rgba(176,255,167,255);
 }
 
 a.nyx-button-active-success:hover, button.nyx-button-active-success:hover, input[type='submit'].nyx-button-active-success:hover, input[type='button'].nyx-button-active-success:hover {
-  color: rgba(166,255,157,255);
-  background-color: rgba(1,120,0,255);
+  color: rgba(176,255,167,255);
+  background-color: rgba(0,95,0,255);
 }
 
 a.nyx-button-active-success:active, button.nyx-button-active-success:active, input[type='submit'].nyx-button-active-success:active, input[type='button'].nyx-button-active-success:active {
   background-color: rgba(26,145,17,255);
   border-color: #7ef575;
-  color: rgba(206,255,197,255);
+  color: rgba(226,255,217,255);
 }
 
 a.nyx-button-disabled-success, button.nyx-button-disabled-success, input[type='submit'].nyx-button-disabled-success, input[type='button'].nyx-button-disabled-success {
@@ -758,7 +758,7 @@ a.nyx-button-disabled-success, button.nyx-button-disabled-success, input[type='s
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(0,45,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: rgba(26,145,17,255);
   color: rgba(26,145,17,255);
 }
@@ -787,19 +787,19 @@ a.nyx-button-error, button.nyx-button-error, input[type='submit'].nyx-button-err
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(34,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: #ea393d;
-  color: rgba(255,97,101,255);
+  color: rgba(255,107,111,255);
 }
 
 a.nyx-button-error:hover, button.nyx-button-error:hover, input[type='submit'].nyx-button-error:hover, input[type='button'].nyx-button-error:hover {
-  color: rgba(255,97,101,255);
-  background-color: rgba(59,0,0,255);
+  color: rgba(255,107,111,255);
+  background-color: rgba(84,0,0,255);
 }
 
 a.nyx-button-error:active, button.nyx-button-error:active, input[type='submit'].nyx-button-error:active, input[type='button'].nyx-button-error:active {
   background-color: rgba(84,0,0,255);
-  color: rgba(255,97,101,255);
+  color: rgba(255,107,111,255);
 }
 
 a.nyx-button-active-error, button.nyx-button-active-error, input[type='submit'].nyx-button-active-error, input[type='button'].nyx-button-active-error {
@@ -823,18 +823,18 @@ a.nyx-button-active-error, button.nyx-button-active-error, input[type='submit'].
   outline: none;
   border-color: #ea393d;
   background-color: rgba(84,0,0,255);
-  color: rgba(255,97,101,255);
+  color: rgba(255,107,111,255);
 }
 
 a.nyx-button-active-error:hover, button.nyx-button-active-error:hover, input[type='submit'].nyx-button-active-error:hover, input[type='button'].nyx-button-active-error:hover {
-  color: rgba(255,97,101,255);
-  background-color: rgba(109,0,0,255);
+  color: rgba(255,107,111,255);
+  background-color: rgba(84,0,0,255);
 }
 
 a.nyx-button-active-error:active, button.nyx-button-active-error:active, input[type='submit'].nyx-button-active-error:active, input[type='button'].nyx-button-active-error:active {
   background-color: rgba(134,0,0,255);
   border-color: #ea393d;
-  color: rgba(255,137,141,255);
+  color: rgba(255,157,161,255);
 }
 
 a.nyx-button-disabled-error, button.nyx-button-disabled-error, input[type='submit'].nyx-button-disabled-error, input[type='button'].nyx-button-disabled-error {
@@ -856,7 +856,7 @@ a.nyx-button-disabled-error, button.nyx-button-disabled-error, input[type='submi
   user-select: none;
   text-decoration: none;
   outline: none;
-  background-color: rgba(34,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: rgba(134,0,0,255);
   color: rgba(134,0,0,255);
 }
@@ -868,7 +868,7 @@ a.nyx-button-disabled-error:hover, button.nyx-button-disabled-error:hover, input
 
 input[type='text'].nyx-input-standard, input[type='password'].nyx-input-standard, input:not([type]).nyx-input-standard {
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
 }
@@ -880,14 +880,14 @@ input[type='text'].nyx-input-standard:hover, input[type='password'].nyx-input-st
 
 input[type='text'].nyx-input-standard:focus, input[type='password'].nyx-input-standard:focus, input:not([type]).nyx-input-standard:focus {
   color: rgba(160,255,255,255);
-  background-color: rgba(0,56,49,255);
+  background-color: rgba(0,26,19,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
 input[type='text'].nyx-input-disabled-standard, input[type='password'].nyx-input-disabled-standard, input:not([type]).nyx-input-disabled-standard {
-  background-color: rgba(0,56,49,255);
-  border-color: rgba(0,156,149,255);
-  color: rgba(0,156,149,255);
+  background-color: rgba(0,26,19,255);
+  border-color: rgba(0,136,129,255);
+  color: rgba(0,136,129,255);
   box-shadow: none;
   outline: none;
 }
@@ -895,7 +895,7 @@ input[type='text'].nyx-input-disabled-standard, input[type='password'].nyx-input
 
 input[type='text'].nyx-input-bright, input[type='password'].nyx-input-bright, input:not([type]).nyx-input-bright {
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
-  background-color: rgba(0,15,11,255);
+  background-color: rgba(0,45,41,255);
   border-color: #aefffb;
   color: #aefffb;
 }
@@ -907,14 +907,14 @@ input[type='text'].nyx-input-bright:hover, input[type='password'].nyx-input-brig
 
 input[type='text'].nyx-input-bright:focus, input[type='password'].nyx-input-bright:focus, input:not([type]).nyx-input-bright:focus {
   color: rgba(255,255,255,255);
-  background-color: rgba(0,75,71,255);
+  background-color: rgba(0,45,41,255);
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
 }
 
 input[type='text'].nyx-input-disabled-bright, input[type='password'].nyx-input-disabled-bright, input:not([type]).nyx-input-disabled-bright {
-  background-color: rgba(0,75,71,255);
-  border-color: rgba(94,175,171,255);
-  color: rgba(94,175,171,255);
+  background-color: rgba(0,45,41,255);
+  border-color: rgba(74,155,151,255);
+  color: rgba(74,155,151,255);
   box-shadow: none;
   outline: none;
 }
@@ -922,7 +922,7 @@ input[type='text'].nyx-input-disabled-bright, input[type='password'].nyx-input-d
 
 input[type='text'].nyx-input-success, input[type='password'].nyx-input-success, input:not([type]).nyx-input-success {
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
-  background-color: rgba(0,5,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: #7ef575;
   color: #7ef575;
 }
@@ -934,14 +934,14 @@ input[type='text'].nyx-input-success:hover, input[type='password'].nyx-input-suc
 
 input[type='text'].nyx-input-success:focus, input[type='password'].nyx-input-success:focus, input:not([type]).nyx-input-success:focus {
   color: rgba(226,255,217,255);
-  background-color: rgba(0,65,0,255);
+  background-color: rgba(0,35,0,255);
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
 }
 
 input[type='text'].nyx-input-disabled-success, input[type='password'].nyx-input-disabled-success, input:not([type]).nyx-input-disabled-success {
-  background-color: rgba(0,65,0,255);
-  border-color: rgba(46,165,37,255);
-  color: rgba(46,165,37,255);
+  background-color: rgba(0,35,0,255);
+  border-color: rgba(26,145,17,255);
+  color: rgba(26,145,17,255);
   box-shadow: none;
   outline: none;
 }
@@ -949,7 +949,7 @@ input[type='text'].nyx-input-disabled-success, input[type='password'].nyx-input-
 
 input[type='text'].nyx-input-error, input[type='password'].nyx-input-error, input:not([type]).nyx-input-error {
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: #ea393d;
   color: #ea393d;
 }
@@ -961,21 +961,21 @@ input[type='text'].nyx-input-error:hover, input[type='password'].nyx-input-error
 
 input[type='text'].nyx-input-error:focus, input[type='password'].nyx-input-error:focus, input:not([type]).nyx-input-error:focus {
   color: rgba(255,157,161,255);
-  background-color: rgba(54,0,0,255);
+  background-color: rgba(24,0,0,255);
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
 }
 
 input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-disabled-error, input:not([type]).nyx-input-disabled-error {
-  background-color: rgba(54,0,0,255);
-  border-color: rgba(154,0,0,255);
-  color: rgba(154,0,0,255);
+  background-color: rgba(24,0,0,255);
+  border-color: rgba(134,0,0,255);
+  color: rgba(134,0,0,255);
   box-shadow: none;
   outline: none;
 }
 
 
 .nyx-label-standard {
-  background-color: rgba(0,36,29,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
   padding-top: 2px;
@@ -999,7 +999,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 
 
 .nyx-label-bright {
-  background-color: rgba(0,55,51,255);
+  background-color: rgba(0,45,41,255);
   border-color: #aefffb;
   color: #aefffb;
   padding-top: 2px;
@@ -1023,7 +1023,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 
 
 .nyx-label-success {
-  background-color: rgba(0,45,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: #7ef575;
   color: #7ef575;
   padding-top: 2px;
@@ -1047,7 +1047,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 
 
 .nyx-label-error {
-  background-color: rgba(34,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: #ea393d;
   color: #ea393d;
   padding-top: 2px;
@@ -1106,7 +1106,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   animation-name: nyx-flashing;
   animation-duration: 0.25s;
   animation-iteration-count: infinite;
-  color: rgba(80,255,249,255);
+  color: rgba(110,255,255,255);
 }
 
 
@@ -1114,7 +1114,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   animation-name: nyx-flashing;
   animation-duration: 0.25s;
   animation-iteration-count: infinite;
-  color: rgba(194,255,255,255);
+  color: rgba(224,255,255,255);
 }
 
 
@@ -1122,7 +1122,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   animation-name: nyx-flashing;
   animation-duration: 0.25s;
   animation-iteration-count: infinite;
-  color: rgba(146,255,137,255);
+  color: rgba(176,255,167,255);
 }
 
 
@@ -1130,7 +1130,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   animation-name: nyx-flashing;
   animation-duration: 0.25s;
   animation-iteration-count: infinite;
-  color: rgba(254,77,81,255);
+  color: rgba(255,107,111,255);
 }
 
 
@@ -1142,7 +1142,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(10,186,179,0.2);
+  background-color: rgba(50,226,219,0.2);
   border-color: rgba(0,86,79,255);
   color: #3cece5;
 }
@@ -1152,7 +1152,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 }
 
 .nyx-panel-standard > a:hover {
-  color: rgba(140,255,255,255);
+  color: rgba(160,255,255,255);
 }
 
 
@@ -1164,7 +1164,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(124,205,201,0.2);
+  background-color: rgba(164,245,241,0.2);
   border-color: rgba(24,105,101,255);
   color: #aefffb;
 }
@@ -1174,7 +1174,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 }
 
 .nyx-panel-bright > a:hover {
-  color: rgba(254,255,255,255);
+  color: rgba(255,255,255,255);
 }
 
 
@@ -1186,7 +1186,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(76,195,67,0.2);
+  background-color: rgba(116,235,107,0.2);
   border-color: rgba(0,95,0,255);
   color: #7ef575;
 }
@@ -1196,7 +1196,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 }
 
 .nyx-panel-success > a:hover {
-  color: rgba(206,255,197,255);
+  color: rgba(226,255,217,255);
 }
 
 
@@ -1208,7 +1208,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(184,7,11,0.2);
+  background-color: rgba(224,47,51,0.2);
   border-color: rgba(84,0,0,255);
   color: #ea393d;
 }
@@ -1218,7 +1218,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
 }
 
 .nyx-panel-error > a:hover {
-  color: rgba(255,137,141,255);
+  color: rgba(255,157,161,255);
 }
 
 
@@ -1259,7 +1259,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   left: 50%;
   opacity: 0.1;
   transition: opacity 0.3s;
-  background-color: rgba(0,36,29,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
 }
@@ -1302,7 +1302,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   left: 50%;
   opacity: 0.1;
   transition: opacity 0.3s;
-  background-color: rgba(0,55,51,255);
+  background-color: rgba(0,45,41,255);
   border-color: #aefffb;
   color: #aefffb;
 }
@@ -1345,7 +1345,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   left: 50%;
   opacity: 0.1;
   transition: opacity 0.3s;
-  background-color: rgba(0,45,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: #7ef575;
   color: #7ef575;
 }
@@ -1388,7 +1388,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   left: 50%;
   opacity: 0.1;
   transition: opacity 0.3s;
-  background-color: rgba(34,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: #ea393d;
   color: #ea393d;
 }
@@ -1406,7 +1406,7 @@ textarea.nyx-textarea-standard {
   border-width: 1px;
   font-size: 10px;
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(0,26,19,255);
   border-color: #3cece5;
   color: #3cece5;
 }
@@ -1419,7 +1419,7 @@ textarea.nyx-textarea-standard:hover {
 textarea.nyx-textarea-standard:focus {
   outline: none;
   color: rgba(160,255,255,255);
-  background-color: rgba(0,56,49,255);
+  background-color: rgba(0,26,19,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
@@ -1436,7 +1436,7 @@ textarea.nyx-textarea-bright {
   border-width: 1px;
   font-size: 10px;
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
-  background-color: rgba(0,15,11,255);
+  background-color: rgba(0,45,41,255);
   border-color: #aefffb;
   color: #aefffb;
 }
@@ -1449,7 +1449,7 @@ textarea.nyx-textarea-bright:hover {
 textarea.nyx-textarea-bright:focus {
   outline: none;
   color: rgba(255,255,255,255);
-  background-color: rgba(0,75,71,255);
+  background-color: rgba(0,45,41,255);
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
 }
 
@@ -1466,7 +1466,7 @@ textarea.nyx-textarea-success {
   border-width: 1px;
   font-size: 10px;
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
-  background-color: rgba(0,5,0,255);
+  background-color: rgba(0,35,0,255);
   border-color: #7ef575;
   color: #7ef575;
 }
@@ -1479,7 +1479,7 @@ textarea.nyx-textarea-success:hover {
 textarea.nyx-textarea-success:focus {
   outline: none;
   color: rgba(226,255,217,255);
-  background-color: rgba(0,65,0,255);
+  background-color: rgba(0,35,0,255);
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
 }
 
@@ -1496,7 +1496,7 @@ textarea.nyx-textarea-error {
   border-width: 1px;
   font-size: 10px;
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
-  background-color: rgba(0,0,0,255);
+  background-color: rgba(24,0,0,255);
   border-color: #ea393d;
   color: #ea393d;
 }
@@ -1509,7 +1509,7 @@ textarea.nyx-textarea-error:hover {
 textarea.nyx-textarea-error:focus {
   outline: none;
   color: rgba(255,157,161,255);
-  background-color: rgba(54,0,0,255);
+  background-color: rgba(24,0,0,255);
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
 }
 

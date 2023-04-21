@@ -1,4 +1,4 @@
-import {colors, cssSelectorsToString} from "./common";
+import {colors, cssSelectorsToString, brightness} from "./common";
 
 export default {
   tooltipColorStyle: color => cssSelectorsToString({
@@ -36,7 +36,7 @@ export default {
       left: "50%",
       opacity: "0.1",
       transition: "opacity 0.3s",
-      backgroundColor: colors.brightness(colors[color], -200),
+      backgroundColor: colors.brightness(colors[color], brightness.darkest),
       borderColor: colors[color],
       color: colors[color],
     },

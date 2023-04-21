@@ -1,4 +1,4 @@
-import { colors, cssSelectorsToString } from "./common";
+import { colors, cssSelectorsToString, brightness } from "./common";
 
 export default {
   checkboxColorStyle: (color) =>
@@ -15,10 +15,10 @@ export default {
           border: `solid 1px ${colors[color]}`,
         },
       [`input[type=checkbox].nyx-checkbox-${color}:checked:after`]: {
-        backgroundColor: colors.brightness(colors[color], 100),
+        backgroundColor: colors.brightness(colors[color], brightness.lightest),
       },
       [`input[type=checkbox].nyx-checkbox-${color}:after`]: {
-        backgroundColor: colors.brightness(colors[color], -175),
+        backgroundColor: colors.brightness(colors[color], brightness.dark),
       },
     }),
   default: `${cssSelectorsToString({
@@ -36,10 +36,10 @@ export default {
       border: `solid 1px ${colors.standard}`,
     },
     "input[type=checkbox]:checked:after": {
-      backgroundColor: colors.brightness(colors.standard, 100),
+      backgroundColor: colors.brightness(colors.standard, brightness.lightest),
     },
     "input[type=checkbox]:after": {
-      backgroundColor: colors.brightness(colors.standard, -175),
+      backgroundColor: colors.brightness(colors.standard, brightness.dark),
     },
   })}
   @-moz-document url-prefix() {

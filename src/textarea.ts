@@ -1,4 +1,4 @@
-import {colors, fonts, cssSelectorsToString} from "./common";
+import {colors, fonts, cssSelectorsToString, brightness} from "./common";
 
 export default {
   textareaColorStyle: (color) => cssSelectorsToString({
@@ -13,22 +13,22 @@ export default {
       borderRadius: "3px",
       borderWidth: "1px",
       fontSize: "10px",
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], -10)}`,
-      backgroundColor: colors.brightness(colors[color], -240),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], brightness.dim)}`,
+      backgroundColor: colors.brightness(colors[color], brightness.darkest),
       borderColor: colors[color],
       color: colors[color],
     },
 
     [`textarea.nyx-textarea-${color}:hover`]: {
-      backgroundColor: colors.brightness(colors[color], -210),
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], -10)}`
+      backgroundColor: colors.brightness(colors[color], brightness.darkest),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], brightness.dim)}`
     },
 
     [`textarea.nyx-textarea-${color}:focus`]: {
       outline: "none",
-      color: colors.brightness(colors[color], 100),
-      backgroundColor: colors.brightness(colors[color], -180),
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], -10)}`
+      color: colors.brightness(colors[color], brightness.lightest),
+      backgroundColor: colors.brightness(colors[color], brightness.darkest),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], brightness.dim)}`
     },
   }),
   default: cssSelectorsToString({
@@ -43,21 +43,21 @@ export default {
       borderRadius: "3px",
       borderWidth: "1px",
       fontSize: "10px",
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, -10)}`,
-      backgroundColor: colors.brightness(colors.standard, -240),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, brightness.dim)}`,
+      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
       borderColor: colors.standard,
       color: colors.standard,
     },
     "textarea:hover": {
-      backgroundColor: colors.brightness(colors.standard, -210),
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, -10)}`
+      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, brightness.dim)}`
     },
 
     "textarea:focus": {
       outline: "none",
-      color: colors.brightness(colors.standard, 100),
-      backgroundColor: colors.brightness(colors.standard, -180),
-      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, -10)}`
+      color: colors.brightness(colors.standard, brightness.lightest),
+      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
+      boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, brightness.dim)}`
     },
   })
 };

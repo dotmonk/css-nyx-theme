@@ -1,4 +1,4 @@
-import {colors, cssSelectorsToString} from "./common";
+import {colors, cssSelectorsToString, brightness} from "./common";
 
 export default {
   radioColorStyle: color => cssSelectorsToString({
@@ -14,10 +14,10 @@ export default {
       border: `solid 1px ${colors[color]}`
     },
     [`input[type=radio].nyx-radio-${color}:checked:after`]: {
-      backgroundColor: colors.brightness(colors[color], 100)
+      backgroundColor: colors.brightness(colors[color], brightness.lightest)
     },
     [`input[type=radio].nyx-radio-${color}:after`]: {
-      backgroundColor: colors.brightness(colors[color], -175)
+      backgroundColor: colors.brightness(colors[color], brightness.dark)
     }  
   }),
   default: `${cssSelectorsToString({
@@ -36,10 +36,10 @@ export default {
       border: `solid 1px ${colors.standard}`,
     },
     "input[type=radio]:checked:after": {
-      backgroundColor: colors.brightness(colors.standard, 100)
+      backgroundColor: colors.brightness(colors.standard, brightness.lightest)
     },
     "input[type=radio]:after": {
-      backgroundColor: colors.brightness(colors.standard, -175)
+      backgroundColor: colors.brightness(colors.standard, brightness.dark)
     }
   })}
   /* Firefox */

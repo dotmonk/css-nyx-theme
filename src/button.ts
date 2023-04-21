@@ -3,6 +3,7 @@ import {
   fonts,
   combineSelectors,
   cssSelectorsToString,
+  brightness
 } from "./common";
 
 const selectors = [
@@ -26,7 +27,7 @@ export default {
         borderStyle: "solid",
         display: "inline-block",
         letterSpacing: "1.5px",
-        fontFamily: "Helvetica, Arial",
+        fontFamily: fonts.default,
         fontSize: "12px",
         textShadow: `0px 0px 3px ${colors.background}`,
         cursor: "pointer",
@@ -34,17 +35,17 @@ export default {
         userSelect: "none",
         textDecoration: "none",
         outline: "none",
-        backgroundColor: colors.brightness(colors[color], -200),
+        backgroundColor: colors.brightness(colors[color], brightness.darkest),
         borderColor: colors[color],
-        color: colors.brightness(colors[color], 40),
+        color: colors.brightness(colors[color], brightness.light),
       },
       [combineSelectors(selectors, `.nyx-button-${color}:hover`)]: {
-        color: colors.brightness(colors[color], 40),
-        backgroundColor: colors.brightness(colors[color], -175),
+        color: colors.brightness(colors[color], brightness.light),
+        backgroundColor: colors.brightness(colors[color], brightness.dark),
       },
       [combineSelectors(selectors, `.nyx-button-${color}:active`)]: {
-        backgroundColor: colors.brightness(colors[color], -150),
-        color: colors.brightness(colors[color], 40),
+        backgroundColor: colors.brightness(colors[color], brightness.dark),
+        color: colors.brightness(colors[color], brightness.light),
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}`)]: {
         paddingTop: "4px",
@@ -57,7 +58,7 @@ export default {
         borderStyle: "solid",
         display: "inline-block",
         letterSpacing: "1.5px",
-        fontFamily: "Helvetica, Arial",
+        fontFamily: fonts.default,
         fontSize: "12px",
         textShadow: `0px 0px 3px ${colors.background}`,
         cursor: "pointer",
@@ -66,17 +67,17 @@ export default {
         textDecoration: "none",
         outline: "none",
         borderColor: colors[color],
-        backgroundColor: colors.brightness(colors[color], -150),
-        color: colors.brightness(colors[color], 40),
+        backgroundColor: colors.brightness(colors[color], brightness.dark),
+        color: colors.brightness(colors[color], brightness.light),
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}:hover`)]: {
-        color: colors.brightness(colors[color], 40),
-        backgroundColor: colors.brightness(colors[color], -125),
+        color: colors.brightness(colors[color], brightness.light),
+        backgroundColor: colors.brightness(colors[color], brightness.dark),
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}:active`)]: {
-        backgroundColor: colors.brightness(colors[color], -100),
+        backgroundColor: colors.brightness(colors[color], brightness.dimest),
         borderColor: colors[color],
-        color: colors.brightness(colors[color], 80),
+        color: colors.brightness(colors[color], brightness.lightest),
       },
       [combineSelectors(selectors, `.nyx-button-disabled-${color}`)]: {
         paddingTop: "4px",
@@ -97,18 +98,18 @@ export default {
         userSelect: "none",
         textDecoration: "none",
         outline: "none",
-        backgroundColor: colors.brightness(colors[color], -200),
-        borderColor: colors.brightness(colors[color], -100),
-        color: colors.brightness(colors[color], -100),
+        backgroundColor: colors.brightness(colors[color], brightness.darkest),
+        borderColor: colors.brightness(colors[color], brightness.dimest),
+        color: colors.brightness(colors[color], brightness.dimest),
       },
       [combineSelectors(selectors, `.nyx-button-disabled-${color}:hover`)]: {
-        color: colors.brightness(colors[color], -100),
+        color: colors.brightness(colors[color], brightness.dimest),
       },
     }),
   default: cssSelectorsToString({
     "button, input[type='submit'], input[type='button']": {
-      color: colors.brightness(colors.standard, 40),
-      backgroundColor: colors.brightness(colors.standard, -200),
+      color: colors.brightness(colors.standard, brightness.light),
+      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
       paddingTop: "4px",
       paddingBottom: "4px",
       paddingLeft: "10px",
@@ -130,12 +131,12 @@ export default {
       borderColor: colors.standard,
     },
     "button:hover, input[type='submit']:hover, input[type='button']:hover": {
-      color: colors.brightness(colors.standard, 40),
-      backgroundColor: colors.brightness(colors.standard, -175),
+      color: colors.brightness(colors.standard, brightness.light),
+      backgroundColor: colors.brightness(colors.standard, brightness.dark),
     },
     "button:active, input[type='submit']:active, input[type='button']:active": {
-      backgroundColor: colors.brightness(colors.standard, -150),
-      color: colors.brightness(colors.standard, 40),
+      backgroundColor: colors.brightness(colors.standard, brightness.dark),
+      color: colors.brightness(colors.standard, brightness.light),
     },
   }),
 };

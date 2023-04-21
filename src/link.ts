@@ -1,4 +1,4 @@
-import {colors, cssSelectorsToString} from "./common";
+import {colors, cssSelectorsToString, brightness} from "./common";
 
 export default {
   linkColorStyle: (color) => cssSelectorsToString({
@@ -7,7 +7,7 @@ export default {
       textDecoration: "underline",
     },
     [`a.nyx-link-${color}:hover`]: {
-      color: colors.brightness(colors[color], 50),
+      color: colors.brightness(colors[color], brightness.light),
     },
   }),
   default: cssSelectorsToString({
@@ -17,7 +17,7 @@ export default {
       textDecoration: "underline",
     },
     "a:hover": {
-      color: colors.brightness(colors.standard, 50),
+      color: colors.brightness(colors.standard, brightness.light),
     }
   }),
 };

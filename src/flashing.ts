@@ -1,4 +1,4 @@
-import {colors, cssSelectorsToString} from "./common";
+import {colors, cssSelectorsToString, brightness} from "./common";
 
 export default {
   spinnerColorStyle: color => cssSelectorsToString({
@@ -6,7 +6,7 @@ export default {
       animationName: "nyx-flashing",
       animationDuration: "0.25s",
       animationIterationCount: "infinite",
-      color: colors.brightness(colors[color], 20),
+      color: colors.brightness(colors[color], brightness.light),
     }
   }),
   default: `
