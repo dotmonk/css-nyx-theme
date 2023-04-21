@@ -9,7 +9,7 @@ export default {
       color: colors[color],
     },
     [`input[type='text'].nyx-input-${color}:hover, input[type='password'].nyx-input-${color}:hover, input:not([type]).nyx-input-${color}:hover`]: {
-      backgroundColor: colors.brightness(colors[color], brightness.darkest),
+      backgroundColor: colors.brightness(colors[color], brightness.dark),
       boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], brightness.dim)}`
     },
     [`input[type='text'].nyx-input-${color}:focus, input[type='password'].nyx-input-${color}:focus, input:not([type]).nyx-input-${color}:focus`]: {
@@ -49,7 +49,7 @@ export default {
       boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, brightness.dim)}`,
     },
     [`input:not([type]):hover, input[type='text']:hover, input[type='password']:hover`]: {
-      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
+      backgroundColor: colors.brightness(colors.standard, brightness.dark),
       boxShadow: `inset 0 0 10px ${colors.brightness(colors.standard, brightness.dim)}`,
     }
   })

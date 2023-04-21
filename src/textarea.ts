@@ -20,7 +20,7 @@ export default {
     },
 
     [`textarea.nyx-textarea-${color}:hover`]: {
-      backgroundColor: colors.brightness(colors[color], brightness.darkest),
+      backgroundColor: colors.brightness(colors[color], brightness.dark),
       boxShadow: `inset 0 0 5px ${colors.brightness(colors[color], brightness.dim)}`
     },
 
@@ -49,7 +49,7 @@ export default {
       color: colors.standard,
     },
     "textarea:hover": {
-      backgroundColor: colors.brightness(colors.standard, brightness.darkest),
+      backgroundColor: colors.brightness(colors.standard, brightness.dark),
       boxShadow: `inset 0 0 5px ${colors.brightness(colors.standard, brightness.dim)}`
     },
 

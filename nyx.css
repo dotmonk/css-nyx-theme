@@ -193,7 +193,7 @@ textarea {
 }
 
 textarea:hover {
-  background-color: rgba(0,26,19,255);
+  background-color: rgba(0,86,79,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
@@ -265,7 +265,7 @@ input:not([type]):focus, input[type='text']:focus, input[type='password']:focus 
 }
 
 input:not([type]):hover, input[type='text']:hover, input[type='password']:hover {
-  background-color: rgba(0,26,19,255);
+  background-color: rgba(0,86,79,255);
   box-shadow: inset 0 0 10px rgba(50,226,219,255);
 }
 
@@ -504,7 +504,7 @@ a.nyx-button-standard:hover, button.nyx-button-standard:hover, input[type='submi
 }
 
 a.nyx-button-standard:active, button.nyx-button-standard:active, input[type='submit'].nyx-button-standard:active, input[type='button'].nyx-button-standard:active {
-  background-color: rgba(0,86,79,255);
+  background-color: rgba(0,136,129,255);
   color: rgba(110,255,255,255);
 }
 
@@ -534,11 +534,11 @@ a.nyx-button-active-standard, button.nyx-button-active-standard, input[type='sub
 
 a.nyx-button-active-standard:hover, button.nyx-button-active-standard:hover, input[type='submit'].nyx-button-active-standard:hover, input[type='button'].nyx-button-active-standard:hover {
   color: rgba(110,255,255,255);
-  background-color: rgba(0,86,79,255);
+  background-color: rgba(0,136,129,255);
 }
 
 a.nyx-button-active-standard:active, button.nyx-button-active-standard:active, input[type='submit'].nyx-button-active-standard:active, input[type='button'].nyx-button-active-standard:active {
-  background-color: rgba(0,136,129,255);
+  background-color: rgba(50,226,219,255);
   border-color: #3cece5;
   color: rgba(160,255,255,255);
 }
@@ -602,7 +602,7 @@ a.nyx-button-bright:hover, button.nyx-button-bright:hover, input[type='submit'].
 }
 
 a.nyx-button-bright:active, button.nyx-button-bright:active, input[type='submit'].nyx-button-bright:active, input[type='button'].nyx-button-bright:active {
-  background-color: rgba(24,105,101,255);
+  background-color: rgba(74,155,151,255);
   color: rgba(224,255,255,255);
 }
 
@@ -632,11 +632,11 @@ a.nyx-button-active-bright, button.nyx-button-active-bright, input[type='submit'
 
 a.nyx-button-active-bright:hover, button.nyx-button-active-bright:hover, input[type='submit'].nyx-button-active-bright:hover, input[type='button'].nyx-button-active-bright:hover {
   color: rgba(224,255,255,255);
-  background-color: rgba(24,105,101,255);
+  background-color: rgba(74,155,151,255);
 }
 
 a.nyx-button-active-bright:active, button.nyx-button-active-bright:active, input[type='submit'].nyx-button-active-bright:active, input[type='button'].nyx-button-active-bright:active {
-  background-color: rgba(74,155,151,255);
+  background-color: rgba(164,245,241,255);
   border-color: #aefffb;
   color: rgba(255,255,255,255);
 }
@@ -700,7 +700,7 @@ a.nyx-button-success:hover, button.nyx-button-success:hover, input[type='submit'
 }
 
 a.nyx-button-success:active, button.nyx-button-success:active, input[type='submit'].nyx-button-success:active, input[type='button'].nyx-button-success:active {
-  background-color: rgba(0,95,0,255);
+  background-color: rgba(26,145,17,255);
   color: rgba(176,255,167,255);
 }
 
@@ -730,11 +730,11 @@ a.nyx-button-active-success, button.nyx-button-active-success, input[type='submi
 
 a.nyx-button-active-success:hover, button.nyx-button-active-success:hover, input[type='submit'].nyx-button-active-success:hover, input[type='button'].nyx-button-active-success:hover {
   color: rgba(176,255,167,255);
-  background-color: rgba(0,95,0,255);
+  background-color: rgba(26,145,17,255);
 }
 
 a.nyx-button-active-success:active, button.nyx-button-active-success:active, input[type='submit'].nyx-button-active-success:active, input[type='button'].nyx-button-active-success:active {
-  background-color: rgba(26,145,17,255);
+  background-color: rgba(116,235,107,255);
   border-color: #7ef575;
   color: rgba(226,255,217,255);
 }
@@ -798,7 +798,7 @@ a.nyx-button-error:hover, button.nyx-button-error:hover, input[type='submit'].ny
 }
 
 a.nyx-button-error:active, button.nyx-button-error:active, input[type='submit'].nyx-button-error:active, input[type='button'].nyx-button-error:active {
-  background-color: rgba(84,0,0,255);
+  background-color: rgba(134,0,0,255);
   color: rgba(255,107,111,255);
 }
 
@@ -828,11 +828,11 @@ a.nyx-button-active-error, button.nyx-button-active-error, input[type='submit'].
 
 a.nyx-button-active-error:hover, button.nyx-button-active-error:hover, input[type='submit'].nyx-button-active-error:hover, input[type='button'].nyx-button-active-error:hover {
   color: rgba(255,107,111,255);
-  background-color: rgba(84,0,0,255);
+  background-color: rgba(134,0,0,255);
 }
 
 a.nyx-button-active-error:active, button.nyx-button-active-error:active, input[type='submit'].nyx-button-active-error:active, input[type='button'].nyx-button-active-error:active {
-  background-color: rgba(134,0,0,255);
+  background-color: rgba(224,47,51,255);
   border-color: #ea393d;
   color: rgba(255,157,161,255);
 }
@@ -874,7 +874,7 @@ input[type='text'].nyx-input-standard, input[type='password'].nyx-input-standard
 }
 
 input[type='text'].nyx-input-standard:hover, input[type='password'].nyx-input-standard:hover, input:not([type]).nyx-input-standard:hover {
-  background-color: rgba(0,26,19,255);
+  background-color: rgba(0,86,79,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
@@ -901,7 +901,7 @@ input[type='text'].nyx-input-bright, input[type='password'].nyx-input-bright, in
 }
 
 input[type='text'].nyx-input-bright:hover, input[type='password'].nyx-input-bright:hover, input:not([type]).nyx-input-bright:hover {
-  background-color: rgba(0,45,41,255);
+  background-color: rgba(24,105,101,255);
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
 }
 
@@ -928,7 +928,7 @@ input[type='text'].nyx-input-success, input[type='password'].nyx-input-success, 
 }
 
 input[type='text'].nyx-input-success:hover, input[type='password'].nyx-input-success:hover, input:not([type]).nyx-input-success:hover {
-  background-color: rgba(0,35,0,255);
+  background-color: rgba(0,95,0,255);
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
 }
 
@@ -955,7 +955,7 @@ input[type='text'].nyx-input-error, input[type='password'].nyx-input-error, inpu
 }
 
 input[type='text'].nyx-input-error:hover, input[type='password'].nyx-input-error:hover, input:not([type]).nyx-input-error:hover {
-  background-color: rgba(24,0,0,255);
+  background-color: rgba(84,0,0,255);
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
 }
 
@@ -1142,7 +1142,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(50,226,219,0.2);
+  background-color: rgba(0,136,129,0.2);
   border-color: rgba(0,86,79,255);
   color: #3cece5;
 }
@@ -1164,7 +1164,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(164,245,241,0.2);
+  background-color: rgba(74,155,151,0.2);
   border-color: rgba(24,105,101,255);
   color: #aefffb;
 }
@@ -1186,7 +1186,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(116,235,107,0.2);
+  background-color: rgba(26,145,17,0.2);
   border-color: rgba(0,95,0,255);
   color: #7ef575;
 }
@@ -1208,7 +1208,7 @@ input[type='text'].nyx-input-disabled-error, input[type='password'].nyx-input-di
   border-width: 1px;
   border-style: solid;
   margin: 7px;
-  background-color: rgba(224,47,51,0.2);
+  background-color: rgba(134,0,0,0.2);
   border-color: rgba(84,0,0,255);
   color: #ea393d;
 }
@@ -1412,7 +1412,7 @@ textarea.nyx-textarea-standard {
 }
 
 textarea.nyx-textarea-standard:hover {
-  background-color: rgba(0,26,19,255);
+  background-color: rgba(0,86,79,255);
   box-shadow: inset 0 0 5px rgba(50,226,219,255);
 }
 
@@ -1442,7 +1442,7 @@ textarea.nyx-textarea-bright {
 }
 
 textarea.nyx-textarea-bright:hover {
-  background-color: rgba(0,45,41,255);
+  background-color: rgba(24,105,101,255);
   box-shadow: inset 0 0 5px rgba(164,245,241,255);
 }
 
@@ -1472,7 +1472,7 @@ textarea.nyx-textarea-success {
 }
 
 textarea.nyx-textarea-success:hover {
-  background-color: rgba(0,35,0,255);
+  background-color: rgba(0,95,0,255);
   box-shadow: inset 0 0 5px rgba(116,235,107,255);
 }
 
@@ -1502,7 +1502,7 @@ textarea.nyx-textarea-error {
 }
 
 textarea.nyx-textarea-error:hover {
-  background-color: rgba(24,0,0,255);
+  background-color: rgba(84,0,0,255);
   box-shadow: inset 0 0 5px rgba(224,47,51,255);
 }
 

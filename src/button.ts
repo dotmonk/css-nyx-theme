@@ -44,7 +44,7 @@ export default {
         backgroundColor: colors.brightness(colors[color], brightness.dark),
       },
       [combineSelectors(selectors, `.nyx-button-${color}:active`)]: {
-        backgroundColor: colors.brightness(colors[color], brightness.dark),
+        backgroundColor: colors.brightness(colors[color], brightness.dimest),
         color: colors.brightness(colors[color], brightness.light),
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}`)]: {
@@ -72,10 +72,10 @@ export default {
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}:hover`)]: {
         color: colors.brightness(colors[color], brightness.light),
-        backgroundColor: colors.brightness(colors[color], brightness.dark),
+        backgroundColor: colors.brightness(colors[color], brightness.dimest),
       },
       [combineSelectors(selectors, `.nyx-button-active-${color}:active`)]: {
-        backgroundColor: colors.brightness(colors[color], brightness.dimest),
+        backgroundColor: colors.brightness(colors[color], brightness.dim),
         borderColor: colors[color],
         color: colors.brightness(colors[color], brightness.lightest),
       },

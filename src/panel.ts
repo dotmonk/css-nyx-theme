@@ -11,7 +11,7 @@ export default {
       borderStyle: "solid",
       margin: "7px",
       backgroundColor: colors.opacity(
-        colors.brightness(colors[color], brightness.dim),
+        colors.brightness(colors[color], brightness.dimest),
         0.2
       ),
       borderColor: colors.brightness(colors[color], brightness.dark),
